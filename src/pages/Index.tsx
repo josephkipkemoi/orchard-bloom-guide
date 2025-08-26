@@ -3,11 +3,13 @@ import EnvironmentalBenefits from "@/components/EnvironmentalBenefits";
 import PopularTrees from "@/components/PopularTrees";
 import PlantingGuide from "@/components/PlantingGuide";
 import CallToAction from "@/components/CallToAction";
+import AboutUs from "@/components/About";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
+      <AboutUs/>
       <EnvironmentalBenefits />
       <PopularTrees />
       <PlantingGuide />
