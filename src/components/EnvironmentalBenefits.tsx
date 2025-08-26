@@ -5,23 +5,23 @@ import environmentalBenefits from "@/assets/environmental-benefits.jpg";
 const benefits = [
   {
     icon: Leaf,
-    title: "Carbon Sequestration",
-    description: "A single mature fruit tree can absorb 48 pounds of CO2 annually, helping combat climate change."
+    title: "Biodiversity",
+    description: "Biodiversity will be boosted by planting a variety of plant and fruit tree species."
   },
   {
     icon: Wind,
-    title: "Air Purification",
-    description: "Trees filter harmful pollutants and produce fresh oxygen, improving air quality in your community."
+    title: "Ownership of Process",
+    description: "The trees will be planted and maintained by the women, to allow equitable distribution of resources."
   },
   {
     icon: Droplets,
-    title: "Soil Conservation",
-    description: "Deep root systems prevent erosion and improve soil structure, protecting our natural resources."
+    title: "Community Engagement",
+    description: "Tree planting is a communal process, allowing the women to train younger women who will take after them and thereby enhancing sustainability."
   },
   {
     icon: Heart,
-    title: "Biodiversity Support",
-    description: "Fruit trees provide habitat for birds, bees, and beneficial insects, supporting local ecosystems."
+    title: "Organic farming methods",
+    description: "The farming and maintenance methods will be fully organic, with no dependence on chemicals."
   }
 ];
 
@@ -31,7 +31,7 @@ const EnvironmentalBenefits = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Environmental Impact
+           Benefits of Edible Forests
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Every fruit tree you plant contributes to a healthier planet. Here's how your trees make a difference.
