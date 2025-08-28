@@ -5,12 +5,14 @@ import PlantingGuide from "@/components/PlantingGuide";
 import CallToAction from "@/components/CallToAction";
 import AboutUs from "@/components/About";
 import MissionVision from "@/components/MissionVision";
+import TreeForestCounter from "@/components/ui/counter";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
       <AboutUs/>
+      <TreeForestCounter/>
       <MissionVision/>
       <EnvironmentalBenefits />
       <PopularTrees />
