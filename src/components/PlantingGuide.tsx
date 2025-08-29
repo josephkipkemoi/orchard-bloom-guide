@@ -4,27 +4,27 @@ import { CheckCircle } from "lucide-react";
 const steps = [
   {
     step: 1,
-    title: "Choose Your Location",
-    description: "Select a sunny spot with well-draining soil. Most fruit trees need 6-8 hours of direct sunlight daily.",
-    tips: ["Check soil pH (6.0-7.0 ideal)", "Ensure good air circulation", "Consider mature tree size"]
+    title: "Garlic",
+    description: "Plant cloves upright, 2 inches deep, spaced 6 apart, water lightly, ensure sun.",
+    tips: ["Plant in well-drained, loose soil; avoid waterlogging to prevent rot.", "Use large, healthy cloves for better bulb development.", "Harvest when lower leaves turn brown, then cure bulbs in shade."]
   },
   {
     step: 2,
-    title: "Prepare the Soil",
-    description: "Dig a hole twice as wide as the root ball and slightly shallower than the pot depth.",
-    tips: ["Add compost to enrich soil", "Remove rocks and weeds", "Test drainage with water"]
+    title: "Avocado",
+    description: "Dig large hole, plant seedling shallow, water deeply, mulch base, provide sunlight, protect wind.",
+    tips: ["Choose a sunny, wind-protected location with rich, well-drained soil.", "Water deeply but infrequently; allow soil to dry slightly between waterings.", "Prune lightly to shape tree and encourage strong branching."]
   },
   {
     step: 3,
-    title: "Plant Your Tree",
-    description: "Gently remove the tree from its container and place it in the hole at the same depth.",
-    tips: ["Don't bury the root flare", "Backfill with native soil", "Water thoroughly after planting"]
+    title: "Mango",
+    description: "Plant seedling in sunny spot, water generously, mulch around, avoid waterlogging, stake if windy.",
+    tips: ["Plant in full sun with space for large root and canopy growth.", "Water young trees regularly, but reduce frequency as tree matures.", "Prune after harvest to improve airflow and sunlight penetration."]
   },
   {
     step: 4,
-    title: "Care & Maintenance",
-    description: "Water regularly, mulch around the base, and prune annually for best growth.",
-    tips: ["Water weekly for first year", "Apply 2-3 inches of mulch", "Prune in late winter"]
+    title: "Chillies",
+    description: "Transplant seedlings carefully, space 18 inches, water regularly, ensure sun, support stems, harvest ripe.",
+    tips: ["Start seeds in warm conditions or transplant healthy seedlings after frost danger.", "Water consistently but avoid soggy soil to prevent root disease.", "Pick chillies regularly to encourage continuous production."]
   }
 ];
 
@@ -34,10 +34,10 @@ const PlantingGuide = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Planting Guide
+            High Yield Crops
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Follow these simple steps to give your fruit trees the best start for a lifetime of healthy growth.
+            33% os the contribution of agriculture to Kenya's GDP
           </p>
         </div>
 
