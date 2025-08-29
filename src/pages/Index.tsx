@@ -9,6 +9,7 @@ import TreeForestCounter from "@/components/ui/counter";
 import ChangingNarrative from "@/components/ui/changing-narrative";
 import MeetTheTeam from "@/components/ui/meet-the-team";
 import CostOfFruitTrees from "@/components/CostOfFruitTrees";
+import SharedJourney from "@/components/SharedJourney";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <MissionVision/>
       <EnvironmentalBenefits />
       <CostOfFruitTrees/>
+      <SharedJourney/>
       <PopularTrees />
       <PlantingGuide />
       <MeetTheTeam/>
