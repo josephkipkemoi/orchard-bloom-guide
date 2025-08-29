@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Discover the joy of growing your own fruit trees while creating a healthier planet for future generations.
+          An initiative by Revitalize Homes & Gardens to support women to nurture their families, one fruit tree at a time.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
