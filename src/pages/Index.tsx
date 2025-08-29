@@ -8,6 +8,7 @@ import MissionVision from "@/components/MissionVision";
 import TreeForestCounter from "@/components/ui/counter";
 import ChangingNarrative from "@/components/ui/changing-narrative";
 import MeetTheTeam from "@/components/ui/meet-the-team";
+import CostOfFruitTrees from "@/components/CostOfFruitTrees";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <ChangingNarrative/>
       <MissionVision/>
       <EnvironmentalBenefits />
+      <CostOfFruitTrees/>
       <PopularTrees />
       <PlantingGuide />
       <MeetTheTeam/>
