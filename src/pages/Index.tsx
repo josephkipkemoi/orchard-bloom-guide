@@ -6,6 +6,8 @@ import CallToAction from "@/components/CallToAction";
 import AboutUs from "@/components/About";
 import MissionVision from "@/components/MissionVision";
 import TreeForestCounter from "@/components/ui/counter";
+import ChangingNarrative from "@/components/ui/changing-narrative";
+import MeetTheTeam from "@/components/ui/meet-the-team";
 
 const Index = () => {
   return (
@@ -13,10 +15,12 @@ const Index = () => {
       <Hero />
       <AboutUs/>
       <TreeForestCounter/>
+      <ChangingNarrative/>
       <MissionVision/>
       <EnvironmentalBenefits />
       <PopularTrees />
       <PlantingGuide />
+      <MeetTheTeam/>
       <CallToAction />
     </div>
   );
