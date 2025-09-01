@@ -1,3 +1,5 @@
+import ImageSlider from "./img-slider";
+
  
 
 const ChangingNarrative = () => {
@@ -7,10 +9,20 @@ const ChangingNarrative = () => {
         className="w-full md:w-1/2 h-64 md:h-auto bg-cover bg-center rounded-lg"
         role="img"
         aria-label="Woman planting seedling with assistance"
-      ></div>
+      >
+
+      <ImageSlider 
+        images={
+          [
+            "https://i.ibb.co/4ntnLpr7/20250725-103136.jpg",
+            "https://i.ibb.co/vp8VvJn/20250725-103719.jpg"
+          ]
+        }
+      />
+      </div>
 
       <div className="w-full md:w-1/2 mt-6 md:mt-0">
-        <h2 className="text-2xl font-bold text-green-700 mb-4">Changing the Narrative</h2>
+        <h2 className="text-2xl font-bold text-green-700 mb-2 mt-10">Changing the Narrative</h2>
         <p className="text-gray-800 mb-3">
           From time immemorial, women in every societal setting have shared a common struggle—
           living in a patriarchal society that favors the superiority/inferiority complex—denying

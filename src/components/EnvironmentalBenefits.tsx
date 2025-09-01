@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Leaf, Wind, Droplets, Heart } from "lucide-react";
 import environmentalBenefits from "@/assets/environmental-benefits.jpg";
+import ImageSlider from "./ui/img-slider";
 
 const benefits = [
   {
@@ -62,11 +63,17 @@ const EnvironmentalBenefits = () => {
           </div>
 
           <div className="relative">
-            <img 
-              src={environmentalBenefits} 
-              alt="Environmental benefits of planting fruit trees" 
-              className="w-full h-auto rounded-2xl shadow-organic"
+            <ImageSlider 
+              images={
+                [
+                  "https://i.ibb.co/BH4Zrtw3/DSC-2179.jpg",
+                  "https://i.ibb.co/b5NJXckW/DSC-0321.jpg",
+                  "https://i.ibb.co/jZQhcgs4/DSC-2237.jpg",
+                  "https://i.ibb.co/5gYzqT7f/FB-IMG-1684246639713.jpg"
+                ]
+              }
             />
+           
             <div className="absolute -bottom-6 -right-6 bg-accent text-foreground p-6 rounded-xl shadow-soft">
               <div className="text-3xl font-bold">48lbs</div>
               <div className="text-sm">CO2 absorbed annually</div>

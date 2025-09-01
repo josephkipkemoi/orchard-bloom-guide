@@ -7,19 +7,19 @@ const teamMembers = [
     name: 'Susan Rodrigues',
     role: 'MD/Founder',
     bio: 'Passionate about empowering women through sustainable agriculture and community-led innovation.',
-    image: '/images/amina.jpg',
+    image: 'https://i.ibb.co/Ld0bq9jP/IMG-20240824-WA0023.jpg',
   },
   {
     name: 'Richie Fernandez',
     role: 'Operations Director',
     bio: 'Expert in regenerative farming and green technologies tailored for rural communities.',
-    image: '/images/david.jpg',
+    image: 'https://i.ibb.co/tTg9T8t1/Whats-App-Image-2024-12-11-at-12-34-52-PM.jpg',
   },
   {
     name: 'Kevin Kariuki',
     role: 'Logistics Manager',
     bio: 'Bridge between local voices and strategic planning, ensuring every woman is heard.',
-    image: '/images/fatuma.jpg',
+    image: 'https://i.ibb.co/GQ9fNj6k/Kevin.jpg',
   },
 ];
 
