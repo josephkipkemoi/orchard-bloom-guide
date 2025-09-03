@@ -5,7 +5,7 @@ import { FaInfoCircle, FaHandHoldingHeart } from 'react-icons/fa';
 
 const TwoSectionLayout = () => {
   return (
-    <div className='p-4'>
+    <div >
   <div className="flex flex-col md:flex-row gap-6 p-6 items-center flex-column justify-center ">
       <section className="flex-1 bg-gray-100 p-6 shadow-lg " style={{ borderRadius: "75px",backgroundImage: `url(${"https://i.ibb.co/1ftXC7kD/1000892870.png"})`, backgroundPosition: "center", backgroundSize: "cover"}}>
         <div style={{ backgroundColor: "green", width: "260px", borderTopLeftRadius: "24px", borderBottomRightRadius: "24px" }} className='shadow-lg'>
