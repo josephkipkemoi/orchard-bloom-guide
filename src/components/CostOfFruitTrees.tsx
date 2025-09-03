@@ -102,7 +102,7 @@ const CostOfFruitTrees = () => {
           </div>      
         </div>
  
-        
+             <hr className="horizontal"/>  
      
       </div>
      
