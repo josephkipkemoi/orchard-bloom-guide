@@ -19,7 +19,7 @@ const CostOfFruitTrees = () => {
           </div>
           <hr className="horizontal"/>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-             Cost of fruit trees, cash crops & land preparation
+             Cost of  Fruit trees, Cash crops & Land preparation
           </h2>
           <div className="cost-container">
             <h2 className="text-4xl md:text-4xl font-bold mb-6">
@@ -28,11 +28,10 @@ const CostOfFruitTrees = () => {
             <p className="text-xl  max-w-3xl mx-auto">
               The estimated cost per shamba (that is, one plot owned by one woman plus VAT)
             </p>
-          </div>
-       
-        </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="group hover:shadow-organic transition-all duration-300 cursor-pointer border-border/50 animate-grow">             
               <CardContent className="space-y-4">
                 <div>
@@ -87,8 +86,26 @@ const CostOfFruitTrees = () => {
                 </div>
               </CardContent>              
             </Card>
+             
         </div>
+          <hr className="horizontal"/>  
+              <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+             Cost of Water Tank & Rain Saucer
+          </h2>
+          <div className="cost-container">
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">
+                Kes. 225,000/=
+            </h2>
+            <p className="text-xl  max-w-3xl mx-auto">
+              The estimated cost per shamba (that is, one plot owned by one woman plus VAT)
+            </p>
+          </div>      
+        </div>
+ 
+        
+     
       </div>
+     
     </section>
   );
 };
