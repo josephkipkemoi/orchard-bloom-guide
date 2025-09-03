@@ -1,0 +1,13 @@
+.cost-container {
+    background-color: rgba(0, 0, 0, 0.897);
+    border-radius: 32px;
+    color: #fff;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 42px;
+    margin-bottom: 24px;
+}
+.horizontal {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}

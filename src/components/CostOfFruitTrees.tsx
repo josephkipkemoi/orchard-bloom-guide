@@ -1,19 +1,35 @@
 import { Card, CardContent} from "@/components/ui/card";
+import "./cost.css"
 
 const CostOfFruitTrees = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16">            
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+             Financial Investment
+          </h2>
+          <div className="cost-container">
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">
+                Kes. 1,100,000/=
+            </h2>
+            <p className="text-xl  max-w-3xl mx-auto">
+              The estimated cost per shamba (that is, one plot owned by one woman plus VAT)
+            </p>
+          </div>
+          <hr className="horizontal"/>
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
              Cost of fruit trees, cash crops & land preparation
           </h2>
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              KES. 875,000
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The estimated cost per shamba (that is, one plot owned by one woman plus VAT)
-          </p>
+          <div className="cost-container">
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">
+                Kes. 875,000/=
+            </h2>
+            <p className="text-xl  max-w-3xl mx-auto">
+              The estimated cost per shamba (that is, one plot owned by one woman plus VAT)
+            </p>
+          </div>
+       
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

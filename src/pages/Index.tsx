@@ -23,7 +23,7 @@ const Index = () => {
       <CostOfFruitTrees/>
       <SharedJourney/>
       {/* <PopularTrees /> */}
-      <PlantingGuide />
+      {/* <PlantingGuide /> */}
       <MeetTheTeam/>
       <CallToAction />
     </div>
