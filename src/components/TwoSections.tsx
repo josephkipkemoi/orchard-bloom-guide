@@ -25,7 +25,7 @@ const TwoSectionLayout = () => {
       </section>
 
       <section className="flex-1 bg-blue-100 p-6 shadow-lg" style={{ borderRadius: "75px",backgroundImage: `url(${"https://i.ibb.co/BH4Zrtw3/DSC-2179.jpg"})`, backgroundPosition: "center", backgroundSize: "cover"}}>
-      <div style={{ backgroundColor: "green", width: "372 px", borderTopLeftRadius: "24px", borderBottomRightRadius: "24px" }}>
+      <div style={{ backgroundColor: "green", width: "372px", borderTopLeftRadius: "24px", borderBottomRightRadius: "24px" }}>
           <h1 style={{ color: "white", borderRadius: "24px"  }} className="text-3xl font-bold mb-2 text-center p-3">Revitalize Conservation</h1>
         </div>
          <img className='p-6 shadow-lg' style={{ width: "320px", borderRadius: "50%", margin: "0 auto", cursor: "pointer" }} alt="revitilize_logo" src={Logo1} />
