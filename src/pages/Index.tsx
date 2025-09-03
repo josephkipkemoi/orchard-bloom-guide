@@ -10,10 +10,12 @@ import ChangingNarrative from "@/components/ui/changing-narrative";
 import MeetTheTeam from "@/components/ui/meet-the-team";
 import CostOfFruitTrees from "@/components/CostOfFruitTrees";
 import SharedJourney from "@/components/SharedJourney";
+import TwoSectionLayout from "@/components/TwoSections";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen">     
+      <TwoSectionLayout/>
       <Hero />
       <AboutUs/>
       <TreeForestCounter/>
@@ -22,6 +24,7 @@ const Index = () => {
       <EnvironmentalBenefits />
       <CostOfFruitTrees/>
       <SharedJourney/>
+   
       {/* <PopularTrees /> */}
       {/* <PlantingGuide /> */}
       <MeetTheTeam/>
