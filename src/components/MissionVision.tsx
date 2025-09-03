@@ -17,13 +17,13 @@ const MissionVision = () => {
             <Card className="group hover:shadow-organic transition-all duration-300 cursor-pointer border-border/50 animate-grow">
               <CardHeader className="pb-4">
             
-              <CardTitle className="text-2xl text-primary group-hover:text-accent transition-colors">
+              <CardTitle className="text-3xl text-primary group-hover:text-accent transition-colors">
                    <h2>Mission</h2>
               </CardTitle>
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <p>
+                <p className="text-1xl">
                   To foster strategic partnerships to provide green agricultural solutions to women in underprivileged communities, to drive impactful economic, environmental and social change.
                 </p>
               </CardContent>
@@ -31,13 +31,13 @@ const MissionVision = () => {
            <Card className="group hover:shadow-organic transition-all duration-300 cursor-pointer border-border/50 animate-grow">
               <CardHeader className="pb-4">
             
-              <CardTitle className="text-2xl text-primary group-hover:text-accent transition-colors">
+              <CardTitle className="text-3xl text-primary group-hover:text-accent transition-colors">
                    <h2>Vision</h2>
               </CardTitle>
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <p>
+                <p className="text-1xl">
                   To support women in vulnerable economic and social situations, to sustainably generate income for themselves and their families.
                 </p>
               </CardContent>

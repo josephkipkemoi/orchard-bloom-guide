@@ -16,15 +16,16 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto py-8">
+    <div className="w-full max-w-6xl mx-auto py-12 bg-green-400 p-10 shadow-lg" style={{ borderTopLeftRadius: "132px", borderBottomRightRadius: "132px" }}>
+      <h1 style={{ color: "white" }} className="p-6 text-4xl font-bold">Gallery</h1>
       <Slider {...settings}>
         {images.map((img, index) => (
-          <div key={index} className="px-2">
+          <div key={index} className="px-6">
             <img
-            style={{ height: "380px", display: "block" }}
+              style={{ height: "auto", maxWidth:"420px", display: "block" }}
               src={img}
               alt={`Slide ${index}`}
-              className="w-full h-auto rounded-lg shadow-md object-cover "
+              className="w-full h-auto rounded-lg mx-auto shadow-md object-cover "
             />
           </div>
         ))}
