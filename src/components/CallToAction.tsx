@@ -4,7 +4,7 @@ import { Phone, Mail, Globe } from "lucide-react";
 
 const CallToAction = () => {
   return (
-    <section className="py-20 bg-gradient-hero">
+    <section className="py-20 bg-gradient-hero mt-12">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <div className="mb-8">

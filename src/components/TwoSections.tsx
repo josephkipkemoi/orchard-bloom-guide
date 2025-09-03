@@ -1,30 +1,51 @@
 import React from 'react';
 import Logo from "@/assets/logo_2.jpg";
 import Logo1 from "@/assets/logo.jpg";
+import { FaInfoCircle, FaHandHoldingHeart } from 'react-icons/fa';
+
 const TwoSectionLayout = () => {
   return (
-    <div>
-  <div className="flex flex-col md:flex-row gap-6 p-6">
-      <section className="flex-1 bg-gray-100 p-6 rounded-lg shadow">
-        <h2 className="text-2xl font-semibold mb-2 text-center">Gather & Grow</h2>
-        <img style={{ borderRadius: "50%", width: "55%", margin: "0 auto" }} alt="revitilize_logo" src={Logo} />
-        <p className="text-gray-700">
-            In Kenya’s rural landscapes, women are transforming degraded land into thriving edible forests. This initiative blends indigenous knowledge, agroecology, and economic empowerment. From garlic to mangoes, these forests nourish communities, restore biodiversity, and elevate women as custodians of climate resilience.
-        </p>        
+    <div >
+  <div className="flex flex-col md:flex-row gap-6 p-6 items-center flex-column justify-center h-screen ">
+      <section className="flex-1 bg-gray-100 p-6 shadow-lg " style={{ borderRadius: "75px",backgroundImage: `url(${"https://i.ibb.co/1ftXC7kD/1000892870.png"})`, backgroundPosition: "center", backgroundSize: "cover"}}>
+        <div style={{ backgroundColor: "green", width: "260px", borderTopLeftRadius: "24px", borderBottomRightRadius: "24px" }}>
+          <h1 style={{ color: "white", borderRadius: "24px"  }} className="text-3xl font-bold mb-2 text-center p-3">Gather & Grow</h1>
+        </div>
+        <img className='p-6 shadow-lg' style={{ borderRadius: "50%", width: "320px", margin: "0 auto", cursor: "pointer" }} alt="revitilize_logo" src={Logo} />      
+          <div className='flex items-center justify-center	mx-auto'>
+            <button style={{ marginRight: "8px" }} className="flex items-center shadow mt-6 gap-2 bg-green-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+              <FaHandHoldingHeart className="h-5 w-5" />
+              Donate
+            </button>
+            <button style={{marginLeft: "8px"}} className="flex items-center shadow mt-6 gap-2 bg-blue-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+              <FaInfoCircle className="h-5 w-5" />
+              Learn More
+            </button>
+          </div>          
       </section>
 
-      <section className="flex-1 bg-blue-100 p-6 rounded-lg shadow">
-        <h2 className="text-2xl font-semibold mb-2 text-center">Revitalize Conservation</h2>
-         <img style={{ borderRadius: "50%", width: "55%", margin: "0 auto" }} alt="revitilize_logo" src={Logo1} />
-        <p className="text-gray-700">
-            At Revitalize Conservation, we believe that regeneration begins with people—especially those often overlooked in climate conversations. Our work is grounded in the power of grassroots action, intergenerational collaboration, and ecological justice. Through two bold initiatives, we’re reimagining conservation as a movement led by schoolchildren and rural women across Kenya.
-       </p>
+      <section className="flex-1 bg-blue-100 p-6 shadow-lg" style={{ borderRadius: "75px",backgroundImage: `url(${"https://i.ibb.co/BH4Zrtw3/DSC-2179.jpg"})`, backgroundPosition: "center", backgroundSize: "cover"}}>
+      <div style={{ backgroundColor: "green", width: "372 px", borderTopLeftRadius: "24px", borderBottomRightRadius: "24px" }}>
+          <h1 style={{ color: "white", borderRadius: "24px"  }} className="text-3xl font-bold mb-2 text-center p-3">Revitalize Conservation</h1>
+        </div>
+         <img className='p-6 shadow-lg' style={{ width: "320px", borderRadius: "50%", margin: "0 auto", cursor: "pointer" }} alt="revitilize_logo" src={Logo1} />
+         <div className='flex items-center justify-center	mx-auto'>
+            <button style={{ marginRight: "8px" }} className="flex items-center shadow mt-6 gap-2 bg-green-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+              <FaHandHoldingHeart className="h-5 w-5" />
+              Donate
+            </button>
+            <button style={{marginLeft: "8px"}} className="flex items-center shadow mt-6 gap-2 bg-blue-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+              <FaInfoCircle className="h-5 w-5" />
+              Learn More
+            </button>
+          </div>
+          
       </section>
-     
+    
     </div>
-     <h2 className='p-8 text-2xl text-center font-bold'>
+    {/* <h2 style={{ maxWidth: "720px", position: "relative" }} className='p-8 mx-auto text-2xl text-center font-bold shadow-md text-green-600'>
         Together, these initiatives embody our belief: conservation is not just about protecting nature—it’s about revitalizing lives, landscapes, and legacies.
-      </h2>
+      </h2> */}
     </div>
   
   );

@@ -29,14 +29,15 @@ const MeetTheTeam = () => {
   }, []);
 
   return (
-    <section className="bg-white py-12 px-6 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold text-center text-green-700 mb-10" data-aos="fade-down">
+    <section style={{ borderTopRightRadius: "72px", borderBottomLeftRadius: "72px" }} className="bg-green-600 py-12 px-12 max-w-7xl mx-auto mb-6">
+      <h2 style={{ color: "white" }} className="text-3xl font-bold text-center mb-10 font-bold" data-aos="fade-down">
         Meet the Team
       </h2>
       <div className="grid gap-8 md:grid-cols-3">
         {teamMembers.map((member, index) => (
           <div
             key={index}
+            style={{ borderRadius: "72px" }}
             className="bg-green-50 rounded-lg shadow-md p-6 text-center"
             data-aos="fade-up"
             data-aos-delay={index * 150}
@@ -48,6 +49,7 @@ const MeetTheTeam = () => {
             />
             <h3 className="text-xl font-semibold text-green-800">{member.name}</h3>
             <p className="text-sm text-gray-600 mb-2">{member.role}</p>
+            <hr style={{ color: "gray", marginTop: "18px", marginBottom: "24px" }} />
             <p className="text-gray-700 text-sm">{member.bio}</p>
           </div>
         ))}

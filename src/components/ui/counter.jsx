@@ -5,7 +5,7 @@ const Counter = ({ label, target, startDate, emoji }) => {
 
   useEffect(() => {
     let start = 0;
-    const duration = 2000; // animation duration in ms
+    const duration = 5000; // animation duration in ms
     const increment = Math.ceil(target / (duration / 50));
 
     const interval = setInterval(() => {
@@ -22,9 +22,9 @@ const Counter = ({ label, target, startDate, emoji }) => {
   }, [target]);
 
   return (
-    <div style={styles.card}>
-      <h2 style={styles.emoji}>{emoji}</h2>
-      <h3 style={styles.label}>{label}</h3>
+    <div style={styles.card} className='flex flex-col items-center justify-center shadow-lg'>
+      <h2  style={styles.emoji}>{emoji}</h2>
+      <h3 className='font-bold' style={styles.label}>{label}</h3>
       <p style={styles.count}>{count.toLocaleString()}</p>
       <p style={styles.date}>Since {startDate}</p>
     </div>
@@ -54,38 +54,38 @@ const TreeForestCounter = () => {
 const styles = {
   container: {
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent: 'center',
-    flexDirection: "row",
-    gap: '2rem',
-    padding: '2rem',
-    backgroundColor: 'hsl(var(--accent))',
+    gap: '3rem',
+    padding: '3rem',
+    backgroundColor: '#aaf0d1',
     fontFamily: 'Segoe UI, sans-serif',
   },
   card: {
-    backgroundColor: '#fff',
-    borderRadius: '12px',
+    backgroundColor: '#aaf0d1',
+    borderRadius: '72px',
     boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-    padding: '1.5rem',
-    width: '250px',
+    padding: '3.5rem',
+    width: '420px',
     textAlign: 'center',
   },
   emoji: {
-    fontSize: '2rem',
+    fontSize: '4rem',
     margin: '0',
   },
   label: {
-    fontSize: '1.2rem',
+    fontSize: '1.6rem',
     color: '#2e7d32',
     margin: '0.5rem 0',
   },
   count: {
-    fontSize: '2.5rem',
+    fontSize: '3.5rem',
     fontWeight: 'bold',
     color: '#1b5e20',
     margin: '0.5rem 0',
   },
   date: {
-    fontSize: '0.9rem',
+    fontSize: '1.2rem',
     color: '#555',
   }
   

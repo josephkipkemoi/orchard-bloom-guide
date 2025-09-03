@@ -16,19 +16,24 @@ const Index = () => {
   return (
     <div className="min-h-screen">     
       <TwoSectionLayout/>
-      <Hero />
+      <TreeForestCounter/>
+      <CostOfFruitTrees/>
+      <AboutUs/>
+      <MeetTheTeam/>
+      <CallToAction />
+      {/* <Hero />
       <AboutUs/>
       <TreeForestCounter/>
       <ChangingNarrative/>
       <MissionVision/>
       <EnvironmentalBenefits />
       <CostOfFruitTrees/>
-      <SharedJourney/>
+      <SharedJourney/> */}
    
       {/* <PopularTrees /> */}
       {/* <PlantingGuide /> */}
-      <MeetTheTeam/>
-      <CallToAction />
+      {/* <MeetTheTeam/>
+      <CallToAction /> */}
     </div>
   );
 };
