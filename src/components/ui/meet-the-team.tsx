@@ -29,7 +29,7 @@ const MeetTheTeam = () => {
   }, []);
 
   return (
-    <section style={{ borderTopRightRadius: "72px", borderBottomLeftRadius: "72px" }} className="bg-green-600 py-12 px-12 max-w-7xl mx-auto mb-6">
+    <section style={{ borderTopRightRadius: "72px", borderBottomLeftRadius: "72px" }} className="bg-green-700 py-12 px-12 max-w-7xl mx-auto mb-6 mt-6">
       <h2 style={{ color: "white" }} className="text-3xl font-bold text-center mb-10 font-bold" data-aos="fade-down">
         Meet the Team
       </h2>

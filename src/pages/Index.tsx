@@ -18,7 +18,7 @@ const Index = () => {
     <div className="min-h-screen">     
       <TwoSectionLayout/>
       <TreeForestCounter/>
-      <MissionVision/>
+      {/* <MissionVision/> */}
       <CostOfFruitTrees/>
       <ImageSlider 
         images={
@@ -30,7 +30,7 @@ const Index = () => {
           ]
         }
       />
-      <AboutUs/>
+      {/* <AboutUs/> */}
       <MeetTheTeam/>
       <CallToAction />
       
