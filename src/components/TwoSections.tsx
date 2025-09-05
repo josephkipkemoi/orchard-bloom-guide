@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from "@/assets/logo_2.jpg";
 import Logo1 from "@/assets/logo.jpg";
 import { FaInfoCircle, FaHandHoldingHeart } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const TwoSectionLayout = () => {
   return (
@@ -26,10 +27,10 @@ const TwoSectionLayout = () => {
               <FaHandHoldingHeart className="h-5 w-5" />
               Donate
             </button>
-            <button style={{marginLeft: "8px"}} className="flex items-center shadow mt-6 gap-2 bg-blue-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+            <Link to="revitalize-kenya-conservation" style={{marginLeft: "8px"}} className="flex items-center shadow mt-6 gap-2 bg-blue-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
               <FaInfoCircle className="h-5 w-5" />
               Learn More
-            </button>
+            </Link>
           </div>
       </section>
 
@@ -48,10 +49,10 @@ const TwoSectionLayout = () => {
               <FaHandHoldingHeart className="h-5 w-5" />
               Donate
             </button>
-            <button style={{marginLeft: "8px"}} className="flex items-center shadow mt-6 gap-2 bg-blue-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+            <Link to="gather-and-grow" style={{marginLeft: "8px"}} className="flex items-center shadow mt-6 gap-2 bg-blue-600 mb-6 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
               <FaInfoCircle className="h-5 w-5" />
               Learn More
-            </button>
+            </Link>
           </div> 
       </section>
 
