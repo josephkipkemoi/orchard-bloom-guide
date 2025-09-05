@@ -5,7 +5,7 @@ const Counter = ({ label, target, startDate, emoji }) => {
 
   useEffect(() => {
     let start = 0;
-    const duration = 5000; // animation duration in ms
+    const duration = 15000; // animation duration in ms
     const increment = Math.ceil(target / (duration / 50));
 
     const interval = setInterval(() => {
@@ -37,14 +37,14 @@ const TreeForestCounter = () => {
       <Counter
         label="Trees with School Children"
         target={103325}
-        startDate="9th March 2023"
+        startDate="May, 2023"
         emoji="🌳"
       />
       <Counter
         label="Edible Forests"
         target={10}
-        startDate="March 2025"
-        emoji="🍎"
+        startDate="March, 2025"
+        emoji="🥑"
       />
     </div>
   );
@@ -58,7 +58,7 @@ const styles = {
     justifyContent: 'center',
     gap: '3rem',
     padding: '3rem',
-    backgroundColor: '#aaf0d1',
+    backgroundColor: '#fff',
     fontFamily: 'Segoe UI, sans-serif',
   },
   card: {
